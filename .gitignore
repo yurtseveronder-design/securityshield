@@ -11,12 +11,15 @@ __pycache__/
 .pytest_cache/
 .coverage
 htmlcov/
-
 # Logs and Audit trails
 logs/
 *.log
 *.jsonl
-
 # IDEs
 .idea/
-.vscode/
+.vscode/__pycache__/
+*.egg-info/
+build/
+dist/
+.venv/
+*.db
